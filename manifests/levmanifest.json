@@ -1,0 +1,83 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://almontg.github.io/test/manifests/levmanifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "To the citizens of Philadelphia this plan of the city and its environs",
+  "thumbnail" : {
+    "@id" : "https://ark.digitalcommonwealth.org/ark:/50959/z603vt15p/thumbnail",
+    "service" : {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:z603vt16z",
+      "profile" : "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "viewingHint" : "individuals",
+  "metadata" : [ {
+    "label" : "Title",
+    "value" : "To the citizens of Philadelphia this plan of the city and its environs : is respectfully dedicated by the editors"
+  }, {
+    "label" : "Date",
+    "value" : "[1796?]"
+  }, {
+    "label" : "Creator",
+    "value" : [ "Varle, Charles", "Scott, J. T. (Joseph T.)" ]
+  }, {
+    "label" : "Publisher",
+    "value" : "Philadelphia : [s.n.]"
+  }, {
+    "label" : "Type of Resource",
+    "value" : "Cartographic"
+  }, {
+    "label" : "Format",
+    "value" : "Maps"
+  }, {
+    "label" : "Language",
+    "value" : "English"
+  }, {
+    "label" : "Subjects",
+    "value" : [ "Landowners--Pennsylvania--Philadelphia--Maps--Early works to 1800", "Real property--Pennsylvania--Philadelphia--Maps--Early works to 1800", "Philadelphia (Pa.)--Maps--Early works to 1800" ]
+  }, {
+    "label" : "Location",
+    "value" : "George Washington's Mount Vernon"
+  }, {
+    "label" : "Collection (local)",
+    "value" : "Richard H. Brown Revolutionary War Map Collection at Mount Vernon"
+  }, {
+    "label" : "Identifier",
+    "value" : [ "https://ark.digitalcommonwealth.org/ark:/50959/z603vt15p", "06_01_008522" ]
+  }, {
+    "label" : "Terms of Use",
+    "value" : [ "No known copyright restrictions.", "This work is licensed for use under a Creative Commons Attribution Non-Commercial Share Alike License (CC BY-NC-SA)." ]
+  } ],
+  "attribution" : "No known copyright restrictions. This work is licensed for use under a Creative Commons Attribution Non-Commercial Share Alike License (CC BY-NC-SA).",
+  "license" : "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "seeAlso" : "https://ark.digitalcommonwealth.org/ark:/50959/z603vt15p",
+  "sequences" : [ {
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://ark.digitalcommonwealth.org/ark:/50959/z603vt15p/canvas/z603vt16z",
+      "@type" : "sc:Canvas",
+      "label" : "image 1",
+      "width" : 6714,
+      "height" : 4901,
+      "images" : [ {
+        "@id" : "https://ark.digitalcommonwealth.org/ark:/50959/z603vt15p/annotation/z603vt16z",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://ark.digitalcommonwealth.org/ark:/50959/z603vt16z/large_image",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 6714,
+          "height" : 4901,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:z603vt16z",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "https://ark.digitalcommonwealth.org/ark:/50959/z603vt15p/canvas/z603vt16z"
+      } ]
+    } ]
+  } ]
+}
