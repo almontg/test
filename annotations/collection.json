@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://almontg.github.io/test/annotations/52b45a3afe88165912350c1f486cfbde.json" ],
+  "@id" : "https://almontg.github.io/test/annotations/collection.json",
+  "label" : "All annotations loaded in almontg/test project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
