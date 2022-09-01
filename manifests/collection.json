@@ -1,0 +1,13 @@
+{
+  "id" : "https://almontg.github.io/test/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in almontg/test project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:AnnotationList",
+    "@id" : "https://almontg.github.io/test/manifests/52b45a3afe88165912350c1f486cfbde.json",
+    "label" : null
+  } ]
+}
