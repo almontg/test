@@ -9,5 +9,9 @@
     "@type" : "sc:AnnotationList",
     "@id" : "https://almontg.github.io/test/manifests/52b45a3afe88165912350c1f486cfbde.json",
     "label" : null
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://almontg.github.io/test/manifests/levmanifest.json",
+    "label" : "To the citizens of Philadelphia this plan of the city and its environs"
   } ]
 }
